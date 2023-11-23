@@ -1,0 +1,56 @@
+.pass-form-wrapper {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(236, 236, 236);
+        padding: 90px;
+        border-radius: 20px;
+}
+
+.pass-form {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+}
+
+.pass-wrapper {
+        position: relative;
+}
+
+.pass__label {
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+
+}
+
+.show__icon,
+.hide__icon {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+}
+
+.validate__btn {
+        width: 100%;
+        padding: 8px 12px;
+        background-color: rgb(66, 66, 66);
+        color: aliceblue;
+        border: 1px solid rgb(66, 66, 66);
+        border-color: none;
+        border-radius: 8px;
+}
+
+.error__massage {
+        width: 100%;
+        position: absolute;
+        bottom: -20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: crimson;
+}

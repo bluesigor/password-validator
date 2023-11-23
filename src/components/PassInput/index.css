@@ -1,0 +1,9 @@
+.pass__input {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 45px 5px 15px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        outline: none;
+}

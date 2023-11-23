@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Password Validator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+Password Validator is a React application that allows users to validate passwords based on certain criteria. It includes a main page for entering passwords and a success page for valid passwords.
+
+## Features
+
+- Password length validation
+- Presence of at least one digit
+- Restriction to Latin alphabet characters
+- Avoidance of common English words
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+
+## Usage
+
+1. Start the application using `npm start`.
+2. Visit [http://localhost:3000](http://localhost:3000) to access the main page.
+3. Enter a password and click "Validate."
+4. If the password is valid, you will be redirected to the success page.
 
 ## Available Scripts
 
